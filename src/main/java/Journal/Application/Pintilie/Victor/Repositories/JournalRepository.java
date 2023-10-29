@@ -8,3 +8,4 @@ import java.util.List;
 public interface JournalRepository extends JpaRepository<Journal, Long> {
     List<Journal> findByUser(User user);
 }
+
