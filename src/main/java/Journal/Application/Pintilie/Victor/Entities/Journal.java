@@ -16,9 +16,7 @@ public class Journal {
     private String content;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
     private User user;
 
-    // Constructors, getters, and setters
 }
 
